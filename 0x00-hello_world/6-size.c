@@ -4,7 +4,7 @@
 * main - print the string in the main function
 *
 * Description: using the main function
-* with proper grammar, but the outcome is a piece of art
+* this program prints "Programming is like building a multilingual puzzle
 * Return: 0
 */
 int main(void)
