@@ -1,16 +1,25 @@
 #include <stdio.h>
+/**
+* main - print the string in the main function
+* 
+* Description: using the main function
+* with proper grammar, but the outcome is a piece of art
+* Return: 0
+*/
+
+int main(void)
 int main(void)
 {
-  int a;
-  long int b;
-  long long int c;
-  char d;
+  char c;
+  int i;
+  long li;
+  long long lli;
   float f;
   
-  printf("size of char: %lu bytes(s)\n", (unsigned long)sizeof(d));
-  printf("size of an int: %lu byte(s)\n", (unsigned long)sizeof(a));
-  printf("size of a long int: %lu byte(s)\n", (unsigned long)sizeof(b));
-  printf("size of a long long int: %lu byte(s)\n", (unsigned long)sizeof(d));
-  printf("size of a float: %lu byte(s)\n", (unsigned long)sizeof(f));
+  printf("size of char: %ld bytes(s)\n", sizeof(c));
+  printf("size of an int: %ld byte(s)\n", sizeof(i));
+  printf("size of a long int: %ld byte(s)\n", sizeof(li));
+  printf("size of a long long int: %ld byte(s)\n", sizeof(lli));
+  printf("size of a float: %ld byte(s)\n", sizeof(f));
   return(0);
 }
