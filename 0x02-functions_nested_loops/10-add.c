@@ -2,7 +2,7 @@
 
 /**
  * add -Adds two integers.
- * @: The first integer to be added.
+ * @num1: The first integer to be added.
  * @num2: The scecond integer to be added.
  *
  * Return: the result of the addition.
