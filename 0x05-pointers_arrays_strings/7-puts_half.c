@@ -6,11 +6,11 @@
  */
 void puts_half(char *str)
 
-	int index, half;
+	int index = 0;
+	int half;
 
-	index = 0;
 	while (str[index] != '\0')
-	index++;
+		index++;
 
 	half = index / 2;
 
