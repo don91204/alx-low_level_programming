@@ -5,6 +5,7 @@
  * @str: This is the input string
  */
 void puts_half(char *str)
+{
 
 	int index = 0;
 	int half;
