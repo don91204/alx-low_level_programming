@@ -1,12 +1,12 @@
 #include "main.h"
 
 /**
- * strcat - Concatenates the string pointed to by @src, including the terninat
- * 	null byte, to the end of the string pointed to by @dest
- * @dest: A pointer to the string to be concatenated upon.
- * @src: The source string to be appended to @dest.
+ * _strcat -> this is a function strcat
  *
- * Return: A pointer to the destination string @dest.
+ * @dest: first param
+ * @src: second param
+ *
+ * Return: a string
  */
 
 char *_strcat(char *dest, char *src)
