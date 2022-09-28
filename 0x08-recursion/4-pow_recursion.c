@@ -1,5 +1,4 @@
 #include "main.h"
-#include <math.h>
 
 /**
  * _pow_recursion - a function that return the value of x raised to power y
@@ -16,8 +15,5 @@ int _pow_recursion(int x, int y)
 	}
 	else
 	{
-		int result = pow(x, y);
-
-		return (result);
-	}
+		return (x * _pow_recursion(x, y - 1));
 }
