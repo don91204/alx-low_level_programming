@@ -10,18 +10,18 @@
 
 int main(int argc, char *argv[])
 {
-int index, multiplication;
+int result = 0, num1, num2;
 
-multiplication = 1;
-if (argc < 3)
+if (argc != 3)
 {
-printf("Error\n");
-return (1);
+	printf("%s\n", "Error");
+	return (1);
 }
-for (index = 1; index < argc; index++)
-{
-multiplication = multiplication *atoi(argv[index]);
-}
-print("%d\n", multiplication);
+num1 = atoi(argv[1]);
+num2 = atoi(argv[2]);
+result = num1 *num2;
+
+printf("%d\n", result);
 return (0);
+
 }
