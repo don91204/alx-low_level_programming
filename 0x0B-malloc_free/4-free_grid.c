@@ -20,7 +20,7 @@ int len(char *str)
 /**
  * argstostr - a function that concatenates all the arguments of your program
  * @ac: count args passed to the function
- * @av array of arguments
+ * @av: array of arguments
  *
  * Return: pointer to the new string
  */
